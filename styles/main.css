@@ -1,1 +1,44 @@
 /*This document is meant for 'index.html' only*/
+.main {
+    background-color: beige;
+    padding: 2vh;
+}
+.recipes {
+    background-color:#793d13; /* Placeholder color */
+    box-shadow: 0 0.4vh 0.8vh rgba(0, 0, 0, 0.1);
+}
+.recipe {
+    padding: 1vh;
+    flex-wrap: wrap;
+    margin: 1vh;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ddd;
+    border-radius: 0.5vh;
+    color: brown;
+    position: relative;
+}
+.recipe a {
+    position: absolute;
+    top: 0;
+    left: 1vh;
+    padding: 1vh;
+    z-index: 1;
+    text-decoration: underline;
+    font-size: 6vh !important;
+}
+.recipe p {
+    text-align: justify;
+    margin: 0;
+    top: 25%;
+    position: absolute;
+    font-size: 3vh;
+    line-height: 1.5;
+}
+.recipe img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5vh;
+}
+h1 {
+    font-size: 8vh;
+}
